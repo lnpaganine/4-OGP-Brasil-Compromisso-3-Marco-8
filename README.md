@@ -56,7 +56,23 @@ O projeto Digital Repository Infrastructure Vision for European Research  (DRIVE
 
 Vale destacar ainda, outras iniciativas da CE como: a European Open Science Cloud (EOSC) de 2015 que visa implementar uma infraestrutura de práticas de ciência aberta; a promoção do princípios FAIR desde 2014 com a publicação de diversos guias e o relatório Turning FAIR into reality: Final Report and Action Plan on FAIR Data em 2018; as diretrizes PSI (Public Sector Information) de 2003, que em 2019 se transformaram nas Diretrizes para dados abertos e reuso de informações do setor público (Directive on open data and the re-use of public sector information); o programa e publicação Open Innovation, Open Science and Open to the World: a vision for Europe de 2016; por último reconhece-se a atuação da CE no Research Data Alliance (RDA) que em 2018 lançou a quarta fase de seu programa na plataforma, garantindo a participação de stakeholders a partir de projetos e financiamentos.
 
-As diferentes versões das diretrizes estão apresentadas [aqui](https://guidelines.openaire.eu/en/latest/) (incluindo as diretrizes para arquivos de dados da versão 3.0) e versão mais recente [aqui](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/index.html). A diretriz é dividida em três partes: Uma introdução onde ela é apresentada; Uso do OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting), onde são apresentadas algumas explicações sobre o uso do protocolo OAI-PMH e; por fim uma visão de um perfil de aplicação, que pode ser encontrado [aqui](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/application_profile.html). A aplicação é baseada em quatro padrões de metadados: Dublin 
+As diferentes versões das diretrizes estão apresentadas [aqui](https://guidelines.openaire.eu/en/latest/) (incluindo as diretrizes para arquivos de dados da versão 3.0) e versão mais recente [aqui](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/index.html). A diretriz é dividida em três partes: Uma introdução onde ela é apresentada; Uso do OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting), onde são apresentadas algumas explicações sobre o uso do protocolo OAI-PMH e; por fim uma visão de um perfil de aplicação, que pode ser encontrado [aqui](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/application_profile.html). A aplicação é baseada em quatro padrões de metadados: Dublin Core, Dublin Core qualificado, Datacite e Oaire (um padrão de metadados próprio desenvolvido pela OpenAIRE), além de serem utilizados diversos vocabulários controlados.
+
+Ressalta-se que mesmo com o extensivo papel do protocolo OAI-PMH na interoperabilidade sintática o paradigma atual tecnológico está se desenvolvendo para cobrar mais. Assim outras iniciativas se destacam como os W3C: PROV-O (que baseiam o Fair Data Point) e DCAT 2.0, que incorpora classes para descrever os serviços de dados visando a implementação FAIR.
+
+Nas diretrizes OpenAIRE V4. foram definidos quatro níveis de obrigatoriedade para metadados: Mandatório (M); Mandatório se aplicável (MA); Recomendado (R) e; Opcional (O). Seguem as explicações de cada um deles.
+
+- Mandatório (M): Qualquer campo com esse nível de obrigatoriedade deve ser preenchido independentemente da situação, caso isso não ocorra estará em não conformidade com as diretrizes. (ex: Título)
+
+- Mandatório se aplicável (MA): Quando o campo apresenta esse nível de obrigatoriedade ele deve ser preenchido caso a informação em questão esteja disponível. (ex: Contribuidor)
+
+- Recomendado (R): O campo que apresentar esse nível de obrigatoriedade não necessita ser preenchido porém é beneficial que o faça. (ex: Identificador Alternativo)
+
+- Opcional (O): Este nível de obrigatoriedade significa que seu preenchimento é de caráter completamente discricionário, caso se julgue que seu preenchimento enriquecerá o registro pode-se preenchê-lo ou não. (ex: Tamanho)
+
+É apresentado no perfil de aplicação uma tabela  com os campos, elementos e vocabulários utilizados. São 32 campos no total, com seis mandatórios, oito mandatórios se aplicáveis, quinze recomendados e três opcionais. Para melhor visualização essa tabela foi reformulada e dividida de acordo com os níveis de obrigatoriedade a seguir. 
+
+Os primeiros campos apresentados serão os **mandatórios (M)**:
 
 
 ```markdown
