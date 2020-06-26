@@ -74,6 +74,15 @@ Nas diretrizes OpenAIRE V4. foram definidos quatro níveis de obrigatoriedade pa
 
 Os primeiros campos apresentados serão os **mandatórios (M)**:
 
+**Tabela 1**- Campos Mandatórios
+
+
+Campo | Metadado | Definição | Exemplo | Exemplo de aplicação | Vocabulário controlado
+------|----------|-----------|---------|----------------------|-----------------------
+Title (Título)datacite:title | Nome ou título pelo qual o recurso é conhecido | National Institute for ... | <datacite:title xml:lang="en-US"> |National Institute for ...
+
+
+
 
 ```markdown
 Syntax highlighted code block
