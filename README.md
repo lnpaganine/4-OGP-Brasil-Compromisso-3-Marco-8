@@ -1,6 +1,4 @@
-# Padrões de interoperabilidade para repositórios de dados de pesquisa
-
-## Apresentação
+# Apresentação
 
 A Parceria para Governo Aberto (do inglês, Open Government Partnership - OGP) é uma iniciativa internacional composta, atualmente, por mais de 79 nações. O Brasil é co-fundador dessa parceria que foi criada, em setembro de 2011, com o objetivo de difundir e incentivar globalmente práticas governamentais relacionadas à transparência dos governos, ao acesso à informação pública e à participação social.
 
@@ -15,7 +13,7 @@ A execução desse compromisso conta com ações desenvolvidas em nove marcos, s
 As recomendações aqui propostas aplicam-se a todas as instituições de pesquisa que desenvolvem pesquisas financiadas com recursos públicos e tem o objetivo de orientar e promover a abertura e interoperabilidade dos dados científicos em apoio ao movimento da Ciência Aberta no Brasil. Os padrões de interoperabilidade aqui definidos visam guiar as instituições de pesquisa a construir ou aprimorar seus repositórios de dados científicos. 
 
 
-## Introdução
+# Introdução
 
 A partir movimento Acesso Aberto surgiram novas necessidades e perspectivas que demandam a abertura de todo o processo científico para a sociedade de forma geral, surgindo então a Ciência Aberta (um termo guarda-chuva que abrange as práticas de abertura seguindo os princípios da transparência e colaboração). Um dos temas tratados na Ciência Aberta são os dados de pesquisa.
 
@@ -24,11 +22,11 @@ Os repositórios, juntamente dos periódicos de dados são apontados como a ferr
 
 Porém com a diversidade de instituições, cada uma com diferentes realidades e necessidades, os mais distintos modelos e padrões de descrição surgiram. O que resulta em dificuldades de interoperabilidade e comunicação. Para tratar tais problemas iniciativas internacionais estabeleceram padrões garantindo assim a homogeneidade ou ao menos a compatibilidade.
 
-### Objetivos
+## Objetivos
 
 Entre as dificuldades encontradas uma das mais proeminentes é não adoção de padrões de metadados já conhecidos e bem estabelecidos ou de ao menos padrões compatíveis entre si. Esse documento tem o objetivo então de desenvolver e aplicar uma metodologia que estabeleça um padrão de metadados para dados de pesquisa que podem ser usados para descrever dados multitemáticos.
 
-### Metodologia	
+## Metodologia	
 
 O estudo a seguir é então classificado como qualitativo que de acordo com Creswell (2007) “usa estratégias de investigação como narrativas, fenomenologias, etnografias, estudos baseados em teoria ou estudos de teoria embasada na realidade. O pesquisador coleta dados emergentes abertos com o objetivo principal de desenvolver temas a partir dos dados.“.
 Para construção da proposta, foi realizada uma pesquisa exploratória (objetivando elaborar um levantamento) e análise descritiva que segundo Gil (2011, p. 28) “têm como objetivo primordial a descrição das características de determinada população ou fenômeno ou o estabelecimento de relações entre variáveis. ” acerca dos repositórios de dados no Brasil, registrados no re3data.org (Registry of Research Data Repositories). O levantamento dos dados ocorreu entre os anos 2019 e 2020.
@@ -50,7 +48,7 @@ Por fim é realizada uma análise dos padrões buscando quais campos seriam de m
 
 Devido a extensão da proposta desenvolvida foram selecionadas 4 áreas para se testar a metodologia, Biologia (devido ao seu comportamento nas árvores do conhecimento levantadas), Agricultura (devido à importância da área nacionalmente), Ciências Sociais (devido ao caráter temático do âmbito institucional onde a pesquisa foi desenvolvida) e por fim Saúde (pela importante e pioneira atuação no movimento Acesso Aberto e outros aspectos relacionados à pesquisa científica). Vale destacar que durante o desenrolar da proposta especialistas das áreas foram consultados, em especial a Fiocruz (Saúde) e Embrapa (Agricultura).
 
-## Desenvolvimento
+# Desenvolvimento
 
 O projeto Digital Repository Infrastructure Vision for European Research  (DRIVER) em 2007 publicou as Guidelines for content providers: Exposing textual resources with OAI-PMH, que contêm recomendações que permitem interoperabilidade entre repositórios. E desde então essas recomendações foram evoluindo e estão atualmente em sua versão 4.0 sendo chamadas de OpenAIRE Guidelines for Literature Repository Managers v4. A partir de 2013 a Comissão Européia (CE) com a publicação do Guidelines on Open Access to Scientific Publications and Research Data está de acordo com os requerimentos do Horizon 2020 abrangendo desde repositórios de literatura à repositórios de dados e sistemas CRIS.
 
