@@ -117,19 +117,9 @@ O software FDP é um aplicativo da web independente. Porém sua funcionalidade e
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+_Italic_ and `Code` text
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
