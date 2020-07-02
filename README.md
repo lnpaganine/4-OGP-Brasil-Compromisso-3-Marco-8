@@ -80,9 +80,38 @@ Campo | Metadado | Definição | Exemplo | Exemplo de aplicação | Vocabulário
 Title (Título) | datacite:title | Nome ou título pelo qual o recurso é conhecido | National Institute for ... | <datacite:title xml:lang="en-US">  National Institute for ... </datacite:title> | [title type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_titletype.html#vocab-titletype-titletype)
 Creator (Criador) | datacite:creator | Autor do recurso (Se nome pessoal usar o formato: Sobrenome, Nome) | Evans, R.J. | <datacite:creator> <datacite:creatorName Evans, R.J.> </datacite:creatorName> </datacite:creator> | [name type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_nametype.html#vocab-nametype-nametype)
 
+Fonte: Elaboração própria.
 
+A seguir na próxima tabela aborda-se o nível de obrigatoriedade Mandatório se aplicável (MA):
 
+**Tabela 2**- Campos Mandatórios se aplicáveis
 
+Campo | Metadado | Definição | Exemplo | Exemplo de aplicação | Vocabulário controlado
+------|----------|-----------|---------|----------------------|-----------------------
+
+Fonte: Elaboração própria.
+
+Fonte: Elaboração própria.
+
+A próxima tabela se trata dos campos Recomendados (R) :
+
+**Tabela 3**- Campos Recomendados
+
+Campo | Metadado | Definição | Exemplo | Exemplo de aplicação | Vocabulário controlado
+------|----------|-----------|---------|----------------------|-----------------------
+
+Fonte: Elaboração própria.
+
+Por fim a tabela com os campos opcionais (O):
+
+**Tabela 4**- Campos opcionais
+
+Fonte: Elaboração própria.
+
+O FAIRDataPoint (FDP) é uma aplicação web independente para repositórios de dados que fornece metadados e dados  FAIR. O FDP usa uma API REST para criar, armazenar e veicular metadados. O FDP é um software que permite que os proprietários dos dados exponham os conjuntos de dados de maneira FAIR além de permitir que os usuários descubram metadados sobre os conjuntos de dados oferecidos e, de acordo com as condições da licença, acessar os dados. Uma coleção de dados em FDP visa solucionar problemas de interoperabilidade promovendo a encontrabilidade, acessibilidade, interoperabilidade e reutilização.
+
+O software FDP é um aplicativo da web independente. Porém sua funcionalidade e  comportamento podem ser incorporados em quaisquer outros aplicativos fornecendo dados FAIR e acessibilidade aos metadados e dados. Por exemplo, um repositório de dados existente pode optar por implementar os metadados do FDP, comportando-se dessa maneira também como um FDP.
+	O padrão de metadados FDP é baseado no Esquema RE3Data, dividido em 3 camadas com 2 opções de nível de obrigatoriedade autoexplicativas, sendo elas nível obrigatório (com 10 campos) ou nível opcional (com 12 campos). As 3 camadas de metadados se referem cada uma a um tipo de objeto digital complexo que pode ser descrito por metadados em um repositório de dados. São elas: 
 
 
 ```markdown
