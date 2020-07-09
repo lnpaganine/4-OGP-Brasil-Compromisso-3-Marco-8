@@ -77,8 +77,8 @@ Os primeiros campos apresentados serão os **mandatórios (M)**:
 
 Campo | Metadado | Definição | Exemplo | Exemplo de aplicação | Vocabulário controlado
 ------|----------|-----------|---------|----------------------|-----------------------
-Title (Título) | datacite:title | Nome ou título pelo qual o recurso é conhecido | National Institute for ... | ''' <datacite:title xml:lang="en-US">  National Institute for ... </datacite:title> ''' | [title type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_titletype.html#vocab-titletype-titletype)
-Creator (Criador) | datacite:creator | Autor do recurso (Se nome pessoal usar o formato: Sobrenome, Nome) | Evans, R.J. | ''' <datacite:creator> <datacite:creatorName Evans, R.J.> </datacite:creatorName> </datacite:creator> ''' | [name type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_nametype.html#vocab-nametype-nametype)
+Title (Título) | datacite:title | Nome ou título pelo qual o recurso é conhecido | National Institute for ... | <datacite:title xml:lang="en-US">  National Institute for ... </datacite:title> | [title type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_titletype.html#vocab-titletype-titletype)
+Creator (Criador) | datacite:creator | Autor do recurso (Se nome pessoal usar o formato: Sobrenome, Nome) | Evans, R.J. | <datacite:creator> <datacite:creatorName Evans, R.J.> </datacite:creatorName> </datacite:creator> | [name type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_nametype.html#vocab-nametype-nametype)
 
 Fonte: Elaboração própria.
 
@@ -88,7 +88,7 @@ A seguir na próxima tabela aborda-se o nível de obrigatoriedade Mandatório se
 
 Campo | Metadado | Definição | Exemplo | Exemplo de aplicação | Vocabulário controlado
 ------|----------|-----------|---------|----------------------|-----------------------
-Contributor (Colaborador) | datacite:contributor | Pessoa ou instituição que tenha tido algum tipo de colaboração na elaboração do recurso, se utilizado faz também ser obrigatório o uso do atributo contributorType | Evans, R. J. | ''' <datacite:contributor> <datacite:contributorName>Evans, R. J.</datacite:contributorName> <datacite:contributor> ''' | [name type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_nametype.html#vocab-nametype-nametype) e [contributor type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_contributortype.html#vocab-contributortype-contributortype)
+Contributor (Colaborador) | datacite:contributor | Pessoa ou instituição que tenha tido algum tipo de colaboração na elaboração do recurso, se utilizado faz também ser obrigatório o uso do atributo contributorType | Evans, R. J. | <datacite:contributor> <datacite:contributorName>Evans, R. J.</datacite:contributorName> <datacite:contributor> | [name type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_nametype.html#vocab-nametype-nametype) e [contributor type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_contributortype.html#vocab-contributortype-contributortype)
 
 Fonte: Elaboração própria.
 
