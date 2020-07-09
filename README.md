@@ -88,8 +88,7 @@ A seguir na próxima tabela aborda-se o nível de obrigatoriedade Mandatório se
 
 Campo | Metadado | Definição | Exemplo | Exemplo de aplicação | Vocabulário controlado
 ------|----------|-----------|---------|----------------------|-----------------------
-Contributor (Colaborador) | datacite:contributor | Pessoa ou instituição que tenha tido algum tipo de colaboração na elaboração do recurso, se utilizado faz também ser obrigatório o uso do atributo contributorType | Evans, R. J. | <datacite:contributor> <datacite:contributorName>Evans, R. J.</datacite:contributorName>  <datacite:contributor> | [name type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_nametype.html#vocab-nametype-nametype) 
-[contributor type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_contributortype.html#vocab-contributortype-contributortype)
+Contributor (Colaborador) | datacite:contributor | Pessoa ou instituição que tenha tido algum tipo de colaboração na elaboração do recurso, se utilizado faz também ser obrigatório o uso do atributo contributorType | Evans, R. J. | <datacite:contributor> <datacite:contributorName>Evans, R. J.</datacite:contributorName>  <datacite:contributor> | [name type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_nametype.html#vocab-nametype-nametype) e [contributor type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_contributortype.html#vocab-contributortype-contributortype)
 
 Fonte: Elaboração própria.
 
