@@ -78,7 +78,7 @@ Os primeiros campos apresentados serão os **mandatórios (M)**:
 Campo | Metadado | Definição | Exemplo | Exemplo de aplicação | Vocabulário controlado
 ------|----------|-----------|---------|----------------------|-----------------------
 Title (Título) | datacite:title | Nome ou título pelo qual o recurso é conhecido | National Institute for ... | <datacite:title xml:lang="en-US">  National Institute for ... </datacite:title> | [title type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_titletype.html#vocab-titletype-titletype)
-Creator (Criador) | datacite:creator | Autor do recurso (Se nome pessoal usar o formato: Sobrenome, Nome) | Evans, R.J. | <datacite:creator> <datacite:creatorName Evans, R.J.> </datacite:creatorName> </datacite:creator> | [name type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_nametype.html#vocab-nametype-nametype)
+Creator (Criador) | datacite:creator | Autor do recurso (Se nome pessoal usar o formato: Sobrenome, Nome) | Evans, R.J. | '<datacite:creator> <datacite:creatorName Evans, R.J.> </datacite:creatorName> </datacite:creator>' | [name type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_nametype.html#vocab-nametype-nametype)
 
 Fonte: Elaboração própria.
 
