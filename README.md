@@ -88,6 +88,8 @@ A seguir na próxima tabela aborda-se o nível de obrigatoriedade Mandatório se
 
 Campo | Metadado | Definição | Exemplo | Exemplo de aplicação | Vocabulário controlado
 ------|----------|-----------|---------|----------------------|-----------------------
+Contributor (Colaborador) | datacite:contributor | Pessoa ou instituição que tenha tido algum tipo de colaboração na elaboração do recurso, se utilizado faz também ser obrigatório o uso do atributo contributorType | Evans, R. J. | <datacite:contributor> <datacite:contributorName>Evans, R. J.</datacite:contributorName>  <datacite:contributor> | [name type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_nametype.html#vocab-nametype-nametype) 
+[contributor type](https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/vocab_contributortype.html#vocab-contributortype-contributortype)
 
 Fonte: Elaboração própria.
 
@@ -122,6 +124,36 @@ O software FDP é um aplicativo da web independente. Porém sua funcionalidade e
 Foi realizada uma comparação entre esses dois conjuntos (OpenAIRE e FDP) a fim de encontrar discrepâncias e sinônimos entre os campos a tabela apresentada a seguir foi elaborada objetivando visualizar as equivalências semânticas entre os campos:
 
 **Tabela 5**- Comparação OAIRE FDP
+
+Fonte: Elaboração própria.
+
+A partir da tabela 5 apresentada podemos perceber q a maioria dos campos dos padrões selecionados apresentam equivalências entre si mesmo que com níveis de obrigatoriedade diferentes. A tabela 1 acima relaciona apenas os campos obrigatórios a fim de estabelecer o núcleo de metadados visado.
+
+Alguns dos problemas encontrados a partir da comparação, além das diferenças de obrigatoriedade já citados, foram: a necessidade de especificação de alguns campos no OAIRE a partir das funções Type (ex: dateType), a adoção de diversos vocabulários controlados diferentes, e a incompatibilidade do campo dcat:distribution do FDP, que se refere ao registro dos metadados da distribuição (arquivo).
+
+O esquema central comum final abarca (bem como suas equivalências a partir de traduções) então os campos: 
+
+**Tabela 6**- Esquema central
+
+Fonte: Elaboração própria.
+
+Partiu-se então para a definição dos metadados temáticos, a primeira barreira encontrada foi o caráter multidisciplinar de um repositório do tipo, ou seja qual divisão de áreas do conhecimento será abordadas para seleção dos padrões vigentes, para tanto foram analisadas 3 tabelas de áreas do conhecimento, sendo elas: a tabela CNpq; a encontrada no manual Frascati e por fim a divisão utilizada pelo DCC/RDA.
+
+**Tabela 7**- Comparação áreas do conhecimento
+
+Fonte: Elaboração própria.
+
+As diferenças para a tabela CNPq estão na primeira e última categorias, a tabela CNPq separa a primeira categoria entre ciências naturais e ciências biológicas. E a última categoria, também separa entre Humanidades, e Linguística e artes.
+A partir dessas diferentes divisões se iniciou o processo de busca por padrões de metadados, partindo-se então para uma lista, publicada pela DCC, contendo os diversos padrões de metadados já divididos por suas áreas do conhecimento que foram analisados, deduplicados e brevemente explicados, a seguir:
+
+**Artes e Humanidades**
+
+- [Encoded Archival Description (EAD)](http://www.loc.gov/ead/)
+
+Um padrão para codificar auxiliares de busca de recursos de busca arquivísticos usando XML em repositórios de arquivos e manuscritos, implementando as recomendações do Conselho Internacional de Arquivos ISAD (G): Padrão Internacional de Descrição Geral de Arquivos.
+
+- 
+
 
 
 ```markdown
